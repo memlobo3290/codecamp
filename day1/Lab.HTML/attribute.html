@@ -49,13 +49,13 @@
             </tr>
 
         </tbody>
-
-
     </table>
 
     <br>
+
+    <!-- tag <img> -->
     <table style="width:100%">
-        <!-- tag <img> -->
+
         <thead>
             <caption> Tag &#60img&#62</caption>
             <tr>
@@ -177,6 +177,468 @@
         </tbody>
     </table>
 
+    <br>
+    <!-- tag <a> -->
+    <table style="width:100%">
+
+        <thead>
+            <caption> Tag &#60a&#62 </caption>
+            <tr>
+                <!-- 3 column th คือ หัวข้อ tr คือ แถว td คือ data-->
+                <th>Attributes</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+
+        <!--ส่วนตัวตาราง-->
+        <tbody>
+            <tr>
+                <td>download</td>
+                <td>filename</td>
+                <td>
+                    ระบุว่าเป้าหมายที่จะถูกดาวน์โหลดเมื่อผู้ใช้คลิกที่ไฮเปอร์ลิงก์</td>
+            </tr>
+
+            <tr>
+                <td>href</td>
+                <td>URL</td>
+                <td>ระบุ URL ของหน้าที่คลิกลิงก์แล้วจะเปลี่ยน อาจจะเป็น path ในโฟลเดอร์ของเว็บเราหรือเป็น link public
+                    ก็ได้ หรือแม้แต่ตำแหน่งในหน้าเพจ เช่น #top</td>
+            </tr>
+
+            <tr>
+                <td>hreflang</td>
+                <td>language_code</td>
+                <td>ระบุภาษาของเอกสารที่เชื่อมโยง</td>
+            </tr>
+
+            <tr>
+                <td>media</td>
+                <td>media_query</td>
+                <td>ระบุสื่อ/อุปกรณ์ ที่เชื่อมโยงเอกสาร คุณลักษณะนี้ใช้เพื่อระบุว่า URL
+                    เป้าหมายได้รับการออกแบบสำหรับอุปกรณ์พิเศษ (เช่น iPhone)</td>
+            </tr>
+
+            <tr>
+                <td>ping</td>
+                <td>list_of_URLs</td>
+                <td>แอตทริบิวต์ ping ระบุรายการ URL ที่จะได้รับแจ้งหากผู้ใช้ติดตามไฮเปอร์ลิงก์
+                    <br>เมื่อผู้ใช้คลิกที่ไฮเปอร์ลิงก์แอตทริบิวต์ ping จะส่งคำขอ HTTP POST สั้น ๆ ไปยัง URL ที่ระบุ</td>
+            </tr>
+
+            <tr>
+                <td>referrerpolicy</td>
+                <td>no-referrer<br>
+                    no-referrer-when-downgrade<br>
+                    origin<br>
+                    origin-when-cross-origin<br>
+                    unsafe-url</td>
+                <td>
+                    ระบุผู้อ้างอิงที่จะส่ง</td>
+            </tr>
+
+            <tr>
+                <td>rel</td>
+                <td>alternate<br>
+                    author<br>
+                    bookmark<br>
+                    external<br>
+                    help<br>
+                    license<br>
+                    next<br>
+                    nofollow<br>
+                    noreferrer<br>
+                    noopener<br>
+                    prev<br>
+                    search<br>
+                    tag</td>
+                <td>
+                    ระบุความสัมพันธ์ระหว่างเอกสารปัจจุบันและเอกสารที่เชื่อมโยง</td>
+            </tr>
+
+            <tr>
+                <td>target</td>
+                <td>_blank<br>
+                    _parent<br>
+                    _self<br>
+                    _top<br>
+                    framename</td>
+                <td>
+                    ระบุตำแหน่งที่จะเปิดเอกสารที่เชื่อมโยง เช่นเปิดหน้าต่างใหม่ ใช้หน้าต่างเดิม</td>
+            </tr>
+
+            <tr>
+                <td>type</td>
+                <td>media_type
+                <td>
+                    ระบุประเภทสื่อสิ่งพิมพ์ของเอกสารที่เชื่อมโยง</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <!--  tag <ul> -->
+    <table style="width:100%">
+
+        <thead>
+            <caption> Tag &#60ul&#62 </caption>
+            <tr>
+                <!-- 3 column th คือ หัวข้อ tr คือ แถว td คือ data-->
+                <th>Attributes</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+
+        <!--ส่วนตัวตาราง-->
+        <tbody>
+            <tr>
+                <td>compact</td>
+                <td>compact</td>
+                <td>
+                    Not supported in HTML5.<br>
+                    ระบุว่ารายการควรแสดงผลน้อยกว่าปกติ การใช้งาน
+                    &#60ul compact&#62 &#60/ul&#62
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>type</td>
+                <td>disc<br>
+                    square<br>
+                    circle</td>
+                <td>Not supported in HTML5. <br>ระบุชนิดของเครื่องหมายที่จะใช้ในรายการ</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <!-- tag <ol> -->
+    <table style="width:100%">
+
+        <thead>
+            <caption> Tag &#60ol&#62 </caption>
+            <tr>
+                <!-- 3 column th คือ หัวข้อ tr คือ แถว td คือ data-->
+                <th>Attributes</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+
+        <!--ส่วนตัวตาราง-->
+        <tbody>
+            <tr>
+                <td>compact</td>
+                <td>compact</td>
+                <td>
+                    Not supported in HTML5.<br>
+                    ระบุว่ารายการควรแสดงผลน้อยกว่าปกติ การใช้งาน
+                    &#60ul compact&#62 &#60/ul&#62
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>type</td>
+                <td>1<br>
+                    A<br>
+                    a<br>
+                    I<br>
+                    i</td>
+                <td>Not supported in HTML5. <br>ระบุชนิดของเครื่องหมายที่จะใช้ในรายการ</td>
+            </tr>
+
+            <tr>
+                <td>reversed</td>
+                <td>reversed</td>
+                <td>ระบุว่าให้ลำดับรายการลดลง เช่น (9,8,7...)</td>
+            </tr>
+
+            <tr>
+                <td>start</td>
+                <td>number</td>
+                <td>ระบุค่าเริ่มต้นของรายการที่สั่ง เช่น &#60ol start="50"&#62 &#60/ol&#62 จะไล่จาก 50,51,52,...</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <!-- tag <table> -->
+    <table style="width:100%">
+
+        <thead>
+            <caption> Tag &#60table&#62 </caption>
+            <tr>
+                <!-- 3 column th คือ หัวข้อ tr คือ แถว td คือ data-->
+                <th>Attributes</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+
+        <!--ส่วนตัวตาราง-->
+        <tbody>
+            <tr>
+                <td>align</td>
+                <td>left<br>
+                    center<br>
+                    right</td>
+                <td>
+                    Not supported in HTML5.<br>
+                    ระบุการจัดตำแหน่งข้อความของตาราง
+                </td>
+            </tr>
+
+            <tr>
+                <td>bgcolor</td>
+                <td>rgb(x,x,x)<br>
+                    #xxxxxx<br>
+                    colorname
+                </td>
+                <td>Not supported in HTML5. <br>ระบุสีพื้นหลังสำหรับตาราง</td>
+            </tr>
+
+            <tr>
+                <td>border</td>
+                <td>1<br>
+                    0</td>
+                <td>Not supported in HTML5.<br> ระบุการแสดงของ border 0 คือไม่แสดง 1 คือแสดง</td>
+            </tr>
+
+            <tr>
+                <td>cellpadding</td>
+                <td>pixels</td>
+                <td>Not supported in HTML5. <br>
+                    ระบุช่องว่างระหว่างเนื้อหาในตารางกับขอบตาราง </td>
+            </tr>
+
+            <tr>
+                <td>cellspacing</td>
+                <td>pixels</td>
+                <td>Not supported in HTML5. <br>
+                    ระบุช่องว่างระหว่างเซลล์ (ความหนาของขอบเซลล์ตาราง) </td>
+            </tr>
+            <tr>
+                <td>frame</td>
+                <td>void (ไม่เห็นทั้งหมด)<br>
+                    above (มองเห็นด้านบน)<br>
+                    below (มองเห็นด้านล่าง)<br>
+                    hsides (สองข้าง บนล่าง) <br>
+                    lhs (ซ้าย)<br>
+                    rhs (ขวา)<br>
+                    vsides (สองข้างซ้าย ขวา)<br>
+                    box (มองเห็นเป็นสี่เหลี่ยม)<br>
+                    border (เห็นทั้งหมด) </td>
+                <td>Not supported in HTML5. <br>
+                    ระบุว่าส่วนใดของเส้นขอบภายนอกที่ควรมองเห็นได้ </td>
+            </tr>
+            <tr>
+                <td>rules</td>
+                <td>none (ไม่เห็นเลย)<br>
+                    groups<br>
+                    rows (เห็นเฉพาะเส้นแถวภายใน) <br>
+                    cols (เห็นเฉพาะเส้นคอลั่มภายใน) <br>
+                    all (เห็นทั้งหมด) </td>
+                <td>Not supported in HTML5. <br>
+                    ระบุว่าส่วนใดของเส้นขอบภายในที่ควรมองเห็นได้ </td>
+            </tr>
+
+            <tr>
+                <td>summary</td>
+                <td>text</td>
+                <td>Not supported in HTML5. <br>
+                    ระบุข้อมูลสรุปของเนื้อหาของตาราง </td>
+            </tr>
+            <tr>
+                <td>width</td>
+                <td>pixels<br>
+                    %</td>
+                <td>Not supported in HTML5. <br>
+                    ระบุความกว้างของตาราง </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <!-- tag <form> -->
+    <table style="width:100%">
+
+        <thead>
+            <caption> Tag &#60form&#62 </caption>
+            <tr>
+                <!-- 3 column th คือ หัวข้อ tr คือ แถว td คือ data-->
+                <th>Attributes</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+
+        <!--ส่วนตัวตาราง-->
+        <tbody>
+            <tr>
+                <td>accept</td>
+                <td>file_type</td>
+                <td>
+                    Not supported in HTML5.<br>
+                    ระบุรายการประเภทไฟล์ ที่เซิร์ฟเวอร์ยอมรับ (ที่สามารถส่งผ่านการอัปโหลดไฟล์)
+                    หากต้องการระบุหลายไฟล์สามารถคั่นด้วยเครื่องหมาย comma เช่น accept="image/gif, image/jpeg"
+                </td>
+            </tr>
+
+            <tr>
+                <td>accept-charset</td>
+                <td>character_set</td>
+                <td>ระบุการเข้ารหัสอักขระที่จะใช้สำหรับการส่งแบบฟอร์ม เช่น accept-charset="ISO-8859-1"</td>
+            </tr>
+
+            <tr>
+                <td>action</td>
+                <td>URL</td>
+                <td>ระบุตำแหน่งที่จะส่งข้อมูลแบบฟอร์มเมื่อส่งแบบฟอร์ม</td>
+            </tr>
+
+            <tr>
+                <td>autocomplete</td>
+                <td>on<br>
+                    off</td>
+                <td>ระบุว่าฟอร์มควรมีการเติมข้อความอัตโนมัติหรือปิด </td>
+            </tr>
+
+            <tr>
+                <td>enctype</td>
+                <td>application/x-www-form-urlencoded<br>
+                    multipart/form-data<br>
+                    text/plain</td>
+                <td>
+                    ระบุวิธีการเข้ารหัสข้อมูลแบบฟอร์มเมื่อส่งไปยังเซิร์ฟเวอร์(only for method="post") </td>
+            </tr>
+            <tr>
+                <td>method</td>
+                <td>get<br>
+                    post</td>
+                <td>ระบุวิธี HTTP ที่จะใช้เมื่อส่งแบบฟอร์มข้อมูล</td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>text</td>
+                <td>ระบุชื่อของฟอร์ม</td>
+            </tr>
+
+            <tr>
+                <td>novalidate</td>
+                <td>novalidate</td>
+                <td>
+                    ระบุว่าไม่ควรตรวจสอบความถูกต้องของฟอร์มเมื่อส่ง</td>
+            </tr>
+            <tr>
+                <td>target</td>
+                <td>_blank<br>
+                    _self<br>
+                    _parent<br>
+                    _top</td>
+                <td>ระบุตำแหน่งที่จะแสดงการตอบสนองที่ได้รับหลังจากส่งแบบฟอร์ม</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <br>
+    <!-- tag <button> -->
+    <table style="width:100%">
+
+        <thead>
+            <caption> Tag &#60button&#62 </caption>
+            <tr>
+                <!-- 3 column th คือ หัวข้อ tr คือ แถว td คือ data-->
+                <th>Attributes</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+
+        <!--ส่วนตัวตาราง-->
+        <tbody>
+            <tr>
+                <td>autofocus</td>
+                <td>autofocus</td>
+                <td>ระบุว่าปุ่มควรได้รับโฟกัสโดยอัตโนมัติเมื่อโหลดหน้าเว็บ (มีแสงรอบๆปุ่มให้เห็นชัดขึ้น)</td>
+            </tr>
+
+            <tr>
+                <td>disabled</td>
+                <td>disabled
+                </td>
+                <td>ระบุว่าปิดใช้งานปุ่ม</td>
+            </tr>
+
+            <tr>
+                <td>form</td>
+                <td>form_id</td>
+                <td>ปุ่มที่อยู่นอกฟอร์ม (แต่ยังคงเป็นส่วนหนึ่งของฟอร์ม):</td>
+            </tr>
+
+            <tr>
+                <td>formaction</td>
+                <td>URL</td>
+                <td>
+                    ระบุตำแหน่งที่จะส่งข้อมูลแบบฟอร์มเมื่อส่งแบบฟอร์ม สำหรับ type = "submit" เท่านั้น</td>
+            </tr>
+
+            <tr>
+                <td>formenctype</td>
+                <td>application/x-www-form-urlencoded<br>
+                    multipart/form-data<br>
+                    text/plain</td>
+                <td>
+                    ระบุวิธีเข้ารหัสข้อมูลในแบบฟอร์มก่อนส่งไปยังเซิร์ฟเวอร์ สำหรับ type = "submit" เท่านั้น</td>
+            </tr>
+            <tr>
+                <td>formmethod</td>
+                <td>get<br>
+                    post</td>
+                <td>
+                    ระบุวิธีการส่ง form-data (ซึ่งใช้วิธีการ HTTP) สำหรับ type = "submit" เท่านั้น</td>
+            </tr>
+            <tr>
+                <td>formnovalidate</td>
+                <td>formnovalidate</td>
+                <td>ระบุว่าไม่ควรตรวจสอบความถูกต้องของข้อมูลแบบฟอร์มเมื่อส่ง สำหรับ type = "submit" เท่านั้น</td>
+            </tr>
+
+            <tr>
+                <td>formtarget</td>
+                <td>_blank<br>
+                    _self<br>
+                    _parent<br>
+                    _top<br>
+                    framename</td>
+                <td>ระบุตำแหน่งที่จะแสดงการตอบสนองหลังจากส่งแบบฟอร์ม สำหรับ type = "submit" เท่านั้น</td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>name</td>
+                <td>ระบุชื่อสำหรับปุ่ม</td>
+            </tr>
+
+            <tr>
+                <td>type</td>
+                <td>button<br>
+                    reset<br>
+                    submit</td>
+                <td>ระบุประเภทของปุ่ม</td>
+            </tr>
+
+            <tr>
+                <td>value</td>
+                <td>text</td>
+                <td>ระบุค่าเริ่มต้นสำหรับปุ่ม</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 

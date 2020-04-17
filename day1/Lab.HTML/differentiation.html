@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+    
+            th,
+            td {
+                padding: 5px;
+                text-align: left;
+            }
+        </style>
+
+    </head>
+    <body>
+    <!-- tag <h>,<p>,<div> -->
+    <table style="width:100%">
+
+        <thead>
+            <caption> หาความเหมือนและความแตกต่าง ระหว่าง 2 tag ที่กำหนดให้</caption>
+            <tr>
+                <!-- 2 column th คือ หัวข้อ tr คือ แถว td คือ data-->
+                <th>ชื่อ Tag</th>
+                <th>ความเหมือน</th>
+                <th>ข้อแตกต่าง</th>
+            </tr>
+        </thead>
+
+        <!--ส่วนตัวตาราง-->
+        <tbody>
+            <tr>
+                <td>&#60hr&#62 vs &#60br&#62</td>
+                <td>เว้นบรรทัดเหมือนกัน</td>
+                <td>tag &#60hr&#62 จะมีเส้นขีดเพิ่มขึ้นมา แต่ของ &#60br&#62 ไม่มี
+                </td>
+            </tr>
+
+            <tr>
+                <td>&#60ul&#62 vs &#60ol&#62</td>
+                <td>เป็น list เหมือนกัน</td>
+                <td>tag &#60ul&#62 จะไม่เป็นตัวเลข เป็นเครื่องหมายแทน แต่ของ &#60ol&#62 จะเป็นตัวเลข/ตัวอักษร/เลขโรมัน เรียงลำดับ
+                </td>
+            </tr>
+
+            <tr>
+                <td>&#60select&#62 vs &#60checkbox&#62 vs &#60radio button&#62</td>
+                <td>เป็น form ให้เลือก</td>
+                <td>tag &#60select&#62 เป็น drop-down list<br>
+                    tag &#60checkbox&#62 เป็น form ให้เลือกติ๊กถูก แบบสี่เหลี่ยม<br>
+                    tag &#60radio button&#62 เป็น form ให้เลือกแบบวงกลม
+                </td>
+            </tr>
+
+            <tr>
+                <td>&#60div&#62 vs &#60span&#62</td>
+                <td>เหมือน block ของข้อมูลต่าง</td>
+                <td>tag &#60span&#62 span นิยมใช้สำหรับข้อความธรรมดา เอาไว้ใส่ stylesheet<br>
+                    <br>ตัวอย่างการใช้งาน<br>
+                    &#60span&#62 A &#60/span&#62<br>
+                    &#60span&#62 B &#60/span&#62<br>
+                    &#60div&#62 C &#60/div&#62<br>
+                    &#60div&#62 D &#60/div&#62<br>
+                    ผลที่แสดง จะเป็นดังนี้ <br>
+                    A B <br>
+                    C<br>
+                    D
+                </td>
+            </tr>
+
+            <tr>
+                <td>&#60script&#62 vs &#60style&#62</td>
+                <td>เอาไว้กำหนดองค์ประกอบ</td>
+                <td>tag &#60style&#62 ใช้เพื่อกำหนดข้อมูลสไตล์สำหรับเอกสาร HTML<br>
+                    tag &#60script&#62 ใช้เพื่อกำหนดสคริปต์ฝั่งไคลเอ็นต์ (JavaScript)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </body>
+</html>
