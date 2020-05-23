@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Oshopping โอช้อปปิ้ง ออนไลน์ช้อปปิ้ง สินค้าแบรนด์ดังในราคาสุดพิเศษ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="https://image.oshoppingtv.com/media/favicon/default/favicon_2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://image.oshoppingtv.com/media/favicon/default/favicon_2.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+
+
+        <div class="container">
+            <h1 class="sitelogo">
+                <a href="javascript:goMainPage();">
+                    <img src="Picture/logo.png" alt="Oshopping โอช้อปปิ้ง ออนไลน์ช้อปปิ้ง สินค้าแบรนด์ดังในราคาสุดพิเศษ">
+                </a>
+            </h1>
+            <ul id="userMenu">
+                <li class="topLog In">
+                    <a href="https://www.oshoppingtv.com/customer/account/login/referer/aHR0cHM6Ly93d3cub3Nob3BwaW5ndHYuY29tLw,,/">
+                        <span class="icn32 iconLog In"></span>
+                        <span class="labelText">ลงชื่อเข้า</span>
+                    </a>
+                </li>
+                <li class="topWish">
+                    <a href="https://www.oshoppingtv.com/wishlist">
+                        <span class="icn32 iconWish"></span>
+                        <span class="labelText">ถูกใจ</span>
+                    </a>
+                </li>
+                <li class="topCart">
+                    <a href="https://www.oshoppingtv.com/checkout/cart/">
+                        <span class="cjo-fpcache" id="b1a7e41df5980f46d793a550ae8fa1f5"></span> <span class="icn32 iconCart"></span>
+                        <span class="labelText">ตะกร้า</span>
+                    </a>
+                </li>
+                <li class="topMyzone">
+                    <a href="https://www.oshoppingtv.com/customer/account/">
+                        <span class="icn32 iconMyzone"></span>
+                        <span class="labelText">ส่วนตัว</span>
+                    </a>
+                </li>
+            </ul>
+
+            <form id="search_mini_form" action="https://www.oshoppingtv.com/catalogsearch/result/" onsubmit="return validateSearchForm(false)" method="get">
+                <div id="topSearch" class="hasQR">
+                                <!-- 201709 about QR Code -->
+                        <div class="qrCodeSearch"><a href="javascript:;" onclick="searchQRCode();"><img src="./Oshopping โอช้อปปิ้ง ออนไลน์ช้อปปิ้ง สินค้าแบรนด์ดังในราคาสุดพิเศษ_files/search_qr.png" alt="QR Code Search"></a></div>
+            <!--            <div class="qrCodeSearch"><a href="#aboutQRcode" onclick="openLayer('#aboutQRcode');"><img src="/th/assets/img/common/search_qr.png" alt="QR Code Search"></a></div>-->
+                        <!-- // 201709 about QR Code -->
+                    
+                    <label for="topSearchKeyword" class="hide"></label>
+                    <input id="topSearchKeyword" type="text" name="q" maxlength="128" placeholder="ค้นหาสินค้า" autocomplete="off">
+                    <input type="button" id="topSearchAction" value="Search">
+                    <button type="button" id="btnSearchDel" class="searchDel">Delete</button>
+                    <!-- // Auto complete via wow -->
+                    <div class="searchCloser notPc"><a href="javascript:void(0)">Close</a></div><!-- 20170427 모바일 검색용 인터페이스 추가 -->
+                    <div id="search_autocomplete" class="search-autocomplete" style="display: none;"></div>
+                </div>
+            </form>
+            <div>
+            </div>
+
+</body>
+
+</html>

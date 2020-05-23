@@ -1,0 +1,33 @@
+body {
+    background: #f1f5f8;
+    color: #333;
+    font-family: 'Noto Sans Thai UI', 'Roboto', sans-serif;
+    font-size: 14px;
+    overflow-y: scroll;
+}
+
+#header {
+    padding: 20px 0ฟ;
+    background-color: rgb(54, 63, 72);
+}
+
+#header .container {
+    position: relative;
+    margin: 0 auto;
+}
+
+.desktop .container {
+    min-width: 1000px;
+}
+
+#header>.container {
+    height: 120px;
+    border: 0;
+    overflow: visible;
+}
+
+#userMenu {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
