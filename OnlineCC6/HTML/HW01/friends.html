@@ -2,18 +2,127 @@
 <html lang="en">
 
 <head>
-    <title></title>
+    <title>Friends list</title>
     <meta charset="UTF-8">
-
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('picture/3040791.jpg');
+        }
+        
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        .navbar a:hover {
+            background: #f1f1f1;
+            color: black;
+        }
+        
+        .main {
+            padding: 16px;
+            margin-bottom: 30px;
+        }
+        
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        
+        .bg {
+            background-color: #FFFFFF;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="content">
-        <img src="me.jpg" alt="me">
-        <br>
-        <a href="index.html">Index</a>
-        <br>
-        <a href="profile.html">Profile</a>
+    <h1>Friends List</h1>
+    <div class="bg">
+        <table>
+            <tr>
+                <th>No.</th>
+                <th>Surname</th>
+                <th>Lastname</th>
+                <th>Nickname</th>
+                <th>Site(github.io)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Kanisha</td>
+                <td>R. Liljeholm</td>
+                <td>Eiw</td>
+                <td><a href="https://l-kanir.github.io/">Click</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>surasak</td>
+                <td>somboon</td>
+                <td>ato</td>
+                <td><a href=" https://github.com/atofinal/PreCamp_6/tree/master/Pre_4_Introduction_Web_Programming">Click</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nicha</td>
+                <td>Ngamtweerat</td>
+                <td>Fern</td>
+                <td><a href="">Click</a></td>
+
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Thanapath</td>
+                <td>Yamubon</td>
+                <td>Champ</td>
+                <td><a href="">Click</a></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Nattawoot</td>
+                <td>Denduangchai</td>
+                <td>Tae</td>
+                <td><a href="https://github.com/toninorsk/Homework_CodeCamp6/tree/master/CodeCamp%236%20Homework/1-HTML">Click</a></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Suriya</td>
+                <td>Thaweechat</td>
+                <td>M</td>
+                <td><a href="https://sthaweechat.github.io/">Click</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="profile.html">About Me</a>
+        <a href="friends.html">Friends</a>
     </div>
 </body>
 
