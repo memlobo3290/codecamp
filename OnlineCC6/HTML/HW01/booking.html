@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Booking</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("picture/3.jpg");
+            background-position: center center, 20% 80%, top left;
+        }
+        
+        input[type=text],
+        select {
+            width: 80%;
+            padding: 3px 3px;
+            margin: 1px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .booking-form {
+            max-width: 650px;
+            width: 40%;
+            margin: auto;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #101113;
+            margin-top: 50px;
+            padding: 50px 20px;
+            -webkit-box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+        }
+        
+        .booking-form .form-group {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        
+        .booking-form .form-label {
+            display: inline-block;
+            color: #ffffff;
+            margin-bottom: 6px;
+            margin-left: 7px;
+        }
+        
+        .row-three-group {
+            display: grid;
+            grid-template-columns: repeat(3, 0.3fr);
+            margin-bottom: 6px;
+        }
+        
+        h1 {
+            font-size: 58px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #ffc001;
+            margin: 0px;
+        }
+        
+        .booking-group {
+            display: grid;
+            grid-template-columns: repeat(2, 0.5fr);
+            margin-bottom: 6px;
+        }
+        
+        .search-button {
+            color: #101113;
+            background-color: #ffc001;
+            font-weight: 700;
+            height: 50px;
+            border: none;
+            width: 100%;
+            display: block;
+            border-radius: 3px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="booking-form">
+        <div class="booking-group">
+            <div class="form-group">
+                <span class="form-label">Flying from</span><br>
+                <select id="from">
+			<option value="null">KKC: Khon Kaen</option>  
+			<option value="null">BKK: Bangkok</option>   
+			<option value="null">BFV: Burirum</option>   
+			<option value="null">CAB: Cabinda</option>   						
+			</select>
+            </div>
+            <div class="form-group">
+                <span class="form-label">To</span><br>
+                <select id="to">
+			<option value="null">KKC: Khon Kaen</option>  
+			<option value="null">BKK: Bangkok</option>   
+			<option value="null">BFV: Burirum</option>   
+			<option value="null">CAB: Cabinda</option>   						
+			</select>
+            </div>
+
+
+            <div class="departing">
+                <div class="form-group">
+                    <span class="form-label">Departing</span><br>
+                    <input type="date" id="departDate" name="departDate">
+                </div>
+            </div>
+
+            <div class="return">
+                <div class="form-group">
+                    <span class="form-label">Returning</span><br>
+                    <input type="date" id="returnDate" name="returnDate">
+                </div>
+            </div>
+        </div>
+        <div class="row-three-group">
+            <div class="adult">
+
+                <div class="form-group">
+                    <span class="form-label">Adult</span><br>
+                    <select class="form-control">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                </div>
+            </div>
+
+
+            <div class="child">
+                <div class="form-group">
+                    <span class="form-label">Child</span><br>
+                    <select class="form-control">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                </div>
+            </div>
+
+            <div class="infant">
+                <div class="form-group">
+                    <span class="form-label">Infant</span><br>
+                    <select class="form-control">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                </div>
+            </div>
+        </div>
+        <div class="currency">
+            <div class="form-group">
+                <span class="form-label">Currency</span><br>
+                <select id="to">
+			<option value="null">THB</option>  
+            <option value="null">US</option> 				
+            </select>
+            </div>
+        </div>
+
+        <div class="search-btn">
+            <button class="search-button">Search</button>
+
+        </div>
+
+</body>
+
+</html>
