@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>4.Slide 15 (review CSS)</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th,
+        td {
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>4.1 value ใน display property มีอะไรบ้าง</h3>
+    <table>
+        <tr>
+            <th>inline</th>
+            <th>block</th>
+            <th>contents</th>
+            <th>flex</th>
+            <th>grid</th>
+            <th>inline-(block, flex, grid, table)</th>
+            <th>run-in</th>
+        </tr>
+        <tr>
+            <td> tag span อยู่บรรทัดเดียวกัน ไม่สามารถปรับแต่ง ความกว้าง ความสูงได้
+            </td>
+            <td>tag p อยู่คนละบรรทัด</td>
+            <td>ทำให้ elementนั้นกลายเป็น contents ไม่สามารถปรับ margin, padding, border, background ได้</td>
+            <td>การจัดรูปแบบ flex</td>
+            <td>การจัดรูปแบบ grid</td>
+            <td></td>
+            <td>block or inline ขี้นอยู่กับ เนื้อหา table tag table, table-caption tag caption, table-column-group tag colgroup, table-header-group tag thead, table-row-group tag tbody, table-cell tag td, table-column tag col, table-row tag tr, non
+            </td>
+        </tr>
+    </table>
+
+    <h3>4.2 grid และ flex แตกต่างกันอย่างไร
+    </h3>
+    <p>- Flex ใช้เพื่อจัดการ layout 1D ส่วน Grid ใช้เพื่อจัดการ layout 2D</p>
+
+    <h3>4.3 justify and align แตกต่างกันอย่างไร</h3>
+    <table>
+        <tr>
+            <th>justify</th>
+            <th>align</th>
+        </tr>
+        <tr>
+            <td>value (flex) และ value (grid)จัดการแนวนอน</td>
+            <td>ใช้กับ flex จัดการแนวตั้ง</td>
+        </tr>
+    </table>
+
+    <h3>5.1 position คืออะไร และ อะไรบ้าง</h3>
+    <p>-position คือ ส่วนของการกำหนดตำแหน่งมีดังต่อไปนี้ </p>
+    <table>
+        <tr>
+            <th>static</th>
+            <th>relative</th>
+            <th>fixed</th>
+            <th>alsolute</th>
+            <th>sticky</th>
+        </tr>
+        <tr>
+            <td>เป็นค่าพื้นฐานของทุกบล็อกโดนจะเลื่อนตามหน้าเว็บปกติ</td>
+            <td>การเลื่อนออกจากตำแหน่งเดิม ตามที่เรากำหนดการดัน block จากทาง ซ้าย ขวา บน ล่าง
+            </td>
+            <td>กำหนดให้ block นั้นยึดอยู่กับที่บนหน้าเว็บ
+            </td>
+            <td>การเลื่อนออกจากมุมซ้ายบนสุดของหน้าจะ ตามการกำหนดการดัน block จากทาง ซ็าย ขวา บน ล่าง
+            </td>
+            <td>การรวม relative กับ fixed ไว้ด้วยกัน โดยการกำหนด relative เพิ่มว่าจะให้ไป fix ที่ top หรือ bottom ทำให้เราเห็น block นั้นเลื่อนและถูกตรีงไว้เมื่อเรา เลื่อน scroll เมาส์</td>
+        </tr>
+    </table>
+
+    <h3>5.2 z-index คืออะไรใช้อย่างไร</h3>
+    <p>- เป็นการจัดการ element ในรูปแบบชั้น layer บนหน้าจอโดยค่าน้อยจะอยู่ด้านหลังส่วนค่ามากจะอยู่ด้านหน้า ค่าเริ่มต้นของทุก element คือ z-index = 0
+    </p>
+</body>
+
+</html>
