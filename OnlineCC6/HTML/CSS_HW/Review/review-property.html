@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Slide 7 (review CSS)</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th,
+        td {
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>2.1 property และ value คืออะไรแตกต่างกันอย่างไร</h3>
+    <table>
+        <tr>
+            <th>Property</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>ส่วน HTML tag ที่เราต้องการจะให้แสดงผล เช่น table ก็จะแสดงผลในส่วนของตาราง</td>
+            <td>ส่วนของคุณสมบัติที่เราต้องการให้แสดง เช่น สีตัวอักษร , ชนิดตัวอักษร , ขนาดตัวอักษร</td>
+        </tr>
+    </table>
+
+    <h3>2.2 property ที่สอนใน precamp มีกี่กลุ่มอะไรบ้าง</h3>
+    <p>- มี 5 กลุ่มดังนี้</p>
+    <table>
+        <tr>
+            <th>Content</th>
+            <th>Border</th>
+            <th>Padding</th>
+            <th>Margin</th>
+            <th>Element</th>
+        </tr>
+        <tr>
+            <td>color , size , font , text, list-style-type, Height, Width, background</td>
+            <td>border, table</td>
+            <td>padding (top right buttom left)</td>
+            <td>margin (top right buttom left)</td>
+            <td>display, Height, Width, Position, Float, Align, Flex, Grid</td>
+        </tr>
+    </table>
+
+    <h3>2.3 value unit มีกี่ประเภทอะไรบ้างแต่ละ ประเภทคืออะไร</h3>
+    <p>- 2 แบบ ดังนี้</p>
+    <table>
+        <tr>
+            <th>Absolute lenghts</th>
+            <th>Relative lenghts</th>
+        </tr>
+        <tr>
+            <td>cm - เซนติเมตร
+                <br>mm - มิลลิเมตร
+                <br>in - นิ้ว
+                <br>px -พิกเซล 1/96 นิ้ว
+                <br>pt พอยท์ 1/72 นิ้ว
+                <br>pc - พิคาล 1/12 นิ้ว</td>
+            <td>em เท่าขนาดฟอนต์ของ element
+                <br>ex เท่าความสูงของฟอนต์ของ element
+                <br>ch ความกว้างของตัวหนังสือใน parent element
+                <br>rem เท่าขนาดฟอนต์ของ root element
+                <br>vh เปอร์เซ็นต์ความสูงหน้าจอ
+                <br>vw เปอร์เซ็นต์ความกว้างหน้าจอ
+                <br>vmin เปอร์เซ็นต์ของ view point ต่ำสุด
+                <br>vmax เปอร์เซ็นต์ของ view point สูงสุด
+                <br>% เปอร์เซ็นต์ของ parent element</td>
+        </tr>
+    </table>
+</body>
+
+</html>
